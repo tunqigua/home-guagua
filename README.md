@@ -1,6 +1,8 @@
 # HOME
 
-网站：[HOME](https://brain-room-cozy-1102.tunqigua.chatgpt.site/)。源码：[tunqigua/home-guagua](https://github.com/tunqigua/home-guagua)，私有仓库。最新首页与四语言验收见 `HOME-VERIFICATION.md`。
+公开网站：[HOME](https://tunqigua.github.io/home-guagua/)。公开源码：[tunqigua/home-guagua](https://github.com/tunqigua/home-guagua)。原 Sites 地址仍保留。最新验收见 `HOME-VERIFICATION.md`。
+
+GitHub Pages 已启用，发布源为 `gh-pages` 分支根目录，强制 HTTPS。`main` 保存完整源码，`gh-pages` 保存 `dist/` 的发布文件；后续修改源码后需同步发布文件。首页分享预览图在发布分支指向 GitHub Pages 地址。
 
 8 个小选择，找到你该住哪里。戴红围巾的像素小猫「挂挂」在暖窗旁陪伴，可以自由调整灯光、窗帘、三个窗台摆件和门牌话。
 
