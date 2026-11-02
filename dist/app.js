@@ -30,7 +30,7 @@ dialog.addEventListener('close',()=>{dialogCleanup();dialogCleanup=()=>{};if(tem
 dialog.addEventListener('click',e=>{if(e.target===dialog){const r=dialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)dialog.close();}});
 function home(){
  const s=el('section','intro');
- add(s,el('h1','home-title','HOME'),el('p','home-description','8 个小选择，找到你该住哪里。'),el('p','home-companion','小猫挂挂在窗边等你。'),scene(defaultConfig('cinema','tableware')));
+ add(s,el('h1','home-title','HOME'),el('p','home-description','8 个小选择，找到你该住哪里。'),el('p','home-companion','小猫“挂挂”在窗边等你。'),scene(defaultConfig('cinema','tableware')));
  const label=state.draft?'接着找我的小屋':state.own?'回我的小屋':'去找我的小屋';
  s.append(button(()=>tr(label)+'  →','primary',()=>state.draft?start():state.own?go('#/result'):start()));
  if(state.draft)s.append(button('重新开始','text-button',newTest));

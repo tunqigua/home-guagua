@@ -6,8 +6,8 @@ export const ui = [
     "HOME"
   ],
   [
-    "小猫挂挂在窗边等你。",
-    "小貓掛掛在窗邊等你。",
+    "小猫“挂挂”在窗边等你。",
+    "小貓「掛掛」在窗邊等你。",
     "子猫のグアグアが窓辺で待っているよ。",
     "Guagua the cat is waiting for you by the window."
   ],

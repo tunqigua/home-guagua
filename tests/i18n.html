@@ -22,7 +22,7 @@ try{
   const node=w.document.querySelector('#app').firstChild;switchTo(w,lang);assert(w.document.documentElement.lang===lang,'html language');assert(w.document.querySelector('#app').firstChild===node,'home node retained');assert(w.localStorage.getItem(LANGUAGE_KEY)===lang,'local preference');assert(w.document.title===text('HOME · 挂挂在窗边等你',lang),'title');
   assert(w.document.querySelector('.home-title').textContent==='HOME'&&!w.document.querySelector('.home-title br'),'single HOME heading');
   assert(w.document.querySelector('.home-description').textContent===text('8 个小选择，找到你该住哪里。',lang),'exact subtitle');
-  assert(w.document.querySelector('.home-companion').textContent===text('小猫挂挂在窗边等你。',lang),'exact companion');
+  assert(w.document.querySelector('.home-companion').textContent===text('小猫“挂挂”在窗边等你。',lang),'exact companion');
   assert(!w.document.querySelector('.intro .eyebrow,.meta,.resume-note,.previews,.preview-label,.header-note'),'removed nodes absent');
   assert(w.document.querySelector('.home-description').nextElementSibling.className==='home-companion'&&w.document.querySelector('.home-companion').nextElementSibling.matches('img.scene'),'copy order');
   assert(!w.document.body.innerText.includes('瓜瓜'),'old name absent');
