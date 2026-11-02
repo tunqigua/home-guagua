@@ -23,6 +23,12 @@
 ## 源码与网站
 
 网站：https://brain-room-cozy-1102.tunqigua.chatgpt.site/
-私有源码仓库：https://github.com/tunqigua/home-guagua
+公开源码仓库：https://github.com/tunqigua/home-guagua
 
-GitHub 为可独立维护的完整源码副本；部署目录为 dist/，不需要第三方运行依赖。未设置 GitHub push 自动发布。
+GitHub Pages 公开网站：https://tunqigua.github.io/home-guagua/
+
+2026-11-02：用户明确同意将仓库源码和素材公开。已完成邮箱验证，仓库已设为 public，GitHub Pages 发布源已设为 gh-pages 分支根目录并强制 HTTPS。pages build and deployment 运行 41423202650 成功。
+
+不携带登录信息的 26 个线上静态资源请求全部返回 200，内容与发布源码逐字节一致。Safari 实际打开公开网址，首页已显示 HOME 与带引号的小猫名称。原 Sites 地址仍保留；该地址的匿名命令行请求曾被 Cloudflare 阻止，因此不能仅凭后台 public 标记宣称所有访客访问正常。
+
+main 为完整源码；gh-pages 为独立发布文件。后续修改 main 后需同步 dist/ 内容到 gh-pages；未配置 main 到发布分支的自动同步。
